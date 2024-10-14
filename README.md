@@ -1,2 +1,2 @@
-# GPO---SCRIPTS
+# GPO-SCRIPTS
 Repositório de scripts para GPO - WINDOWS

@@ -1,0 +1,8 @@
+
+#Comando instalar o compilador
+
+Install-Module -Name PS2EXE
+
+#Comando para Compilar para executavel
+
+Invoke-PS2EXE -InputFile "C:\Temp\AddBlockUsers.ps1" -OutputFile "C:\Temp\AddBlockUsers.exe" -iconFile "C:\Temp\3d.ico" -title "AddBlockUsers" -description "Script para bloquear usuários administradores da máquina e criar um usuário local" -version "1.0.1" -company "Guilherme Romera" -copyright "© 2024 Guilherme Romera. Todos os direitos reservados."
